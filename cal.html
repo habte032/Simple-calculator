@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="contaioner">
+        <form action="">
+            <input type="text" id="inputext" placeholder="0">
+        </form>
+        <div class="btn">
+            <button style="color:#f50404" onclick="clr()">C </button>
+            <button  style="color:#ce892e" onclick="del()">Del</button>
+            <button onclick="calculator('%')">%</button>
+            <button onclick="calculator('/')">/</button>
+            <button onclick="calculator(7)">7</button>
+            <button onclick="calculator(8)">8</button>
+            <button onclick="calculator(9)">9</button>
+            <button onclick="calculator('*')">*</button>
+            <button onclick="calculator(4)">4</button>
+            <button onclick="calculator(5)">5</button>
+            <button onclick="calculator(6)">6</button>
+            <button onclick="calculator('-')">-</button>
+            <button onclick="calculator(1)">1</button>
+            <button onclick="calculator(2)">2</button>
+            <button onclick="calculator(3)">3</button>
+            <button onclick="calculator('+')">+</button>
+            <button onclick="calculator('.')">.</button>
+            <button onclick="calculator(0)">0</button>
+            <button class="equal" onclick="Result()">=</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+
+</body>
+</html>
