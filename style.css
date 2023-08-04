@@ -1,3 +1,4 @@
+/* General styles */
 body {
   margin: 0;
   padding: 0;
@@ -5,17 +6,36 @@ body {
   font-family: sans-serif;
 }
 
-.container {
-  height: 50vh;
-  width: 40vh;
+.contaioner {
+  height: 100vh;
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin: 50px auto;
   background-color: rgb(39, 39, 66);
   border-radius: 20px;
   box-shadow: 6px 6px 13px rgb(94, 92, 90);
 }
 
+input[type="text"] {
+  margin-left: 5%;
+  padding: 10px 20px 10px 30px;
+  width: 90%;
+  border-radius: 30px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: darkblue;
+  background-color: transparent;
+  border: none;
+}
+
+::placeholder {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(182, 172, 160);
+}
+
+/* Button styles */
 .btn {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -31,62 +51,55 @@ button {
 }
 
 .equal {
-  width: 175%;
+  width: 100%;
   border-radius: 30px;
 }
 
-button:hover {
-  box-shadow: 5px 2px 3px rgb(94, 92, 90);
+/* Social media icons styles */
+.social-media-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0;
 }
 
-input {
-  margin-left: 5%;
-  padding: 10px 20px 10px 30px;
-  width: 60%;
-  border-radius: 30px;
-  border: none;
-  font-family: sans-serif;
-  font-size: 20px;
-  color: darkblue;
-  border: none;
+.social-media-icons li {
+  margin: 0 10px;
 }
 
-::placeholder {
-  font-family: sans-serif;
-  font-size: 20px;
-  color: rgb(182, 172, 160);
+.social-media-icons a {
+  display: block;
 }
 
-input:focus {
-  border: 2px solid #3a7eec;
+.social-media-icons img {
+  width: 48px;
+  height: 48px;
 }
 
-/* Responsive Styles */
-
+/* Mobile view styles */
 @media (max-width: 768px) {
-  .container {
-    width: 80%;
+  .contaioner {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  input[type="text"] {
+    width: 100%;
   }
 
   .btn {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  input {
-    width: 70%;
-  }
-}
-
-@media (max-width: 576px) {
-  .container {
-    width: 90%;
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
   }
 
-  .btn {
-    grid-template-columns: 1fr;
-  }
-
-  input {
-    width: 80%;
+  .equal {
+    width: 100%;
+    border-radius: 30px;
   }
 }
