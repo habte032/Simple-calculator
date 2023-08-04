@@ -6,6 +6,15 @@
             font-family:sans-serif;
             
         }
+        .social-media-icons li img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+        
+        .social-media-icons li img:hover {
+          background-color: #000;
+        }
         .contaioner{
             height: 50vh;
             width:40vh;
