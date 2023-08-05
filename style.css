@@ -86,7 +86,7 @@ button {
   }
 
   input[type="text"] {
-    margin-left: 25px; 
+    margin-left: 10; 
     min-width: 0; 
     padding: 15px 20px; 
     text-align: right;
