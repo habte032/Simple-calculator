@@ -87,8 +87,9 @@ button {
   }
 
   input[type="text"] {
-    width: 200px; /* Adjusted width to fit container */
-    min-width: 300px;/* Adjusted width to fit container */
+    width: 90%; /* Adjusted width to fit container */
+    min-width: 0; /* Reset min-width for better responsiveness */
+    padding: 15px 20px; /* Adjusted padding for better appearance */
     text-align: right; /* Align the text to the right */
   }
 
