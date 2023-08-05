@@ -56,34 +56,32 @@ button {
   grid-column: span 2;
 }
 
-/* Social media icons styles */
 .social-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Optional: If you want to add space between the icons, use the following property */
-  /* gap: 10px; */
+  gap: 10px; */
 }
 
 .intro-social {
   list-style: none;
   display: flex;
-  /* Optional: If you want the icons to be in a row instead of a column */
   /* flex-direction: row; */
 }
 
 .intro-social li {
-  margin: 5;
-  padding: 5;
+  margin: 0;
+  padding: 0;
 }
 
 .intro-social li a {
   display: inline-block;
-  color: #333; /* Set the color for the icons */
-  font-size: 24px; /* Adjust the icon size as needed */
-  /* Optional: Add padding around the icons */
-  /* padding: 5px; */
+  color: #333; 
+  font-size: 24px; 
+  margin: 5px;
+  padding: 10px;
 }
+
 
 
 /* Mobile view styles */
