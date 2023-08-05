@@ -20,26 +20,20 @@ body {
 
 input[type="text"] {
   margin-left: 5%;
-  padding: 10px 20px 10px 30px;
-  width: 200px;
-  min-width: 100px; /* Added minimum width on focus */
+  padding: 15px 20px; /* Adjusted padding for better appearance */
+  width: 90%; /* Adjusted width to fit container */
+  min-width: 200px;
   border-radius: 30px;
   font-family: sans-serif;
   font-size: 20px;
-  color: rgb(182, 172, 160);
+  color: white; /* Changed text color to white */
   background-color: transparent;
-  transition: min-width 0.3s; /* Added transition for smooth animation */
-}
-
-input[type="text"]:focus {
-  min-width: 200px; /* Adjusted minimum width on focus */
-  color: white; /* Changed text color to white on focus */
-}
-
-::placeholder {
-  font-family: sans-serif;
-  font-size: 20px;
-  color: rgb(182, 172, 160);
+  border: none; /* Removed the border */
+  outline: none; /* Removed the outline */
+  text-align: right; /* Align the text to the right */
+  ::placeholder {
+    color: rgb(182, 172, 160);
+  }
 }
 
 /* Button styles */
@@ -50,8 +44,8 @@ input[type="text"]:focus {
 }
 
 button {
-  padding: 10px;
-  margin: 10px;
+  padding: 15px;
+  margin: 5px;
   border-radius: 10px;
   border: none;
   font-size: 20px;
@@ -60,6 +54,7 @@ button {
 .equal {
   width: 100%;
   border-radius: 30px;
+  grid-column: span 4;
 }
 
 /* Social media icons styles */
@@ -92,11 +87,12 @@ button {
   }
 
   input[type="text"] {
-    width: 100px;
+    width: 90%; /* Adjusted width to fit container */
+    text-align: right; /* Align the text to the right */
   }
 
   .btn {
-    grid-template-columns: repeat(3, 1fr); /* Adjusted to three columns */
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
   }
 
@@ -107,7 +103,7 @@ button {
   }
 
   .equal {
-    grid-column: span 2;
+    grid-column: span 3;
     width: 100%;
     border-radius: 30px;
   }
