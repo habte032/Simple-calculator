@@ -21,7 +21,7 @@ body {
 input[type="text"] {
   margin-left: 5%;
   padding: 10px 20px 10px 30px;
-  width: 50%;
+  width: 200px;
   border-radius: 30px;
   font-family: sans-serif;
   font-size: 20px;
@@ -85,7 +85,7 @@ button {
   }
 
   input[type="text"] {
-    width: 50%;
+    width: 100px;
   }
 
   .btn {
@@ -100,7 +100,7 @@ button {
   }
 
   .equal {
-    grid-column: span 3;
+    grid-column: span 2;
     width: 100%;
     border-radius: 30px;
   }
