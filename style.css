@@ -34,6 +34,7 @@ input[type="text"] {
   ::placeholder {
     color: rgb(182, 172, 160);
   }
+  box-shadow: none; /* Removed the box shadow */
 }
 
 /* Button styles */
