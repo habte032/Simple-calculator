@@ -57,26 +57,34 @@ button {
 }
 
 /* Social media icons styles */
-.social-media-icons {
-  list-style: none;
+.social-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  /* Optional: If you want to add space between the icons, use the following property */
+  /* gap: 10px; */
+}
+
+.intro-social {
+  list-style: none;
+  display: flex;
+  /* Optional: If you want the icons to be in a row instead of a column */
+  /* flex-direction: row; */
+}
+
+.intro-social li {
+  margin: 0;
   padding: 0;
-  margin: 20px 0;
 }
 
-.social-media-icons li {
-  margin: 0 10px;
+.intro-social li a {
+  display: inline-block;
+  color: #333; /* Set the color for the icons */
+  font-size: 24px; /* Adjust the icon size as needed */
+  /* Optional: Add padding around the icons */
+  /* padding: 5px; */
 }
 
-.social-media-icons a {
-  display: block;
-}
-
-.social-media-icons img {
-  width: 48px;
-  height: 48px;
-}
 
 /* Mobile view styles */
 @media (max-width: 768px) {
