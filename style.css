@@ -22,11 +22,18 @@ input[type="text"] {
   margin-left: 5%;
   padding: 10px 20px 10px 30px;
   width: 200px;
+  min-width: 100px; /* Added minimum width on focus */
   border-radius: 30px;
   font-family: sans-serif;
   font-size: 20px;
   color: rgb(182, 172, 160);
   background-color: transparent;
+  transition: min-width 0.3s; /* Added transition for smooth animation */
+}
+
+input[type="text"]:focus {
+  min-width: 200px; /* Adjusted minimum width on focus */
+  color: white; /* Changed text color to white on focus */
 }
 
 ::placeholder {
@@ -89,7 +96,7 @@ button {
   }
 
   .btn {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* Adjusted to three columns */
     grid-gap: 5px;
   }
 
