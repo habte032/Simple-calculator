@@ -15,7 +15,7 @@ body {
   padding-bottom: 50px;
   background-color: rgb(39, 39, 66);
   border-radius: 20px;
-  box-shadow: 6px 6px 13px rgb(94, 92, 90);
+  box-shadow: 3px 3px 6px rgb(94, 92, 90);
 }
 
 input[type="text"] {
