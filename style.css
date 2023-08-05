@@ -87,7 +87,7 @@ button {
   }
 
   input[type="text"] {
-    width: 90%; /* Adjusted width to fit container */
+    margin-left: 5px; /* Adjusted width to fit container */
     min-width: 0; /* Reset min-width for better responsiveness */
     padding: 15px 20px; /* Adjusted padding for better appearance */
     text-align: right; /* Align the text to the right */
@@ -100,7 +100,7 @@ button {
 
   button {
     padding: 15px;
-    margin: 5px;
+    margin: 5px 0px;
     font-size: 18px;
   }
 
